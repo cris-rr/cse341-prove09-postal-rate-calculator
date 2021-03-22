@@ -8,6 +8,6 @@ app.get('/', (req, res) => {
   res.end()
 })
 
-app.listen(port, () => {
+app.listen(PORT, () => {
   console.log(`Server up and listening at http://localhost:${PORT}`)
 })
