@@ -1,0 +1,14 @@
+{
+  "name": "prove09-postal-rate-calculator",
+  "version": "1.0.0",
+  "description": "Postal rate calculator",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cristhians Ruiz",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
