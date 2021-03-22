@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Postal Calculator Form</title>
+</head>
+
+<body>
+  <h1>Postal Calculation Form</h1>
+  <form action="/calculate" method="GET">
+    <label for="weight">Input weight</label>
+    <input type="text" name="weight">
+    <label for="mailType"></label>
+    <select name="mailType" id="mailType">
+      <option value="Letters Stamped">Letters Stamped (1 to 3.5 oz)</option>
+      <option value="Letters Metered">Letters Metered (1 to 3.5 oz)</option>
+      <option value="Large Envelopes Flats">Large Envelopes Flats (1 to 13 oz)</option>
+      <option value="First-Class Package Service Retail">First-Class Package Service Retail(1 to 13 oz)</option>
+    </select>
+
+    <br>
+    <br>
+    <input type="submit" value="Calculate Price">
+
+  </form>
+</body>
+
+</html>
