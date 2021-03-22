@@ -18,10 +18,6 @@ app.get('/', (req, res) => {
     Local: http://localhost:5000/form.html
     Heroku: https://prove09-postal-rate-calculator.herokuapp.com/form.html
   `
-  // res.write('Postal Calculator!')
-  // res.write('Use this Url to test the app:')
-  // res.write('local example: http: //localhost:5000/form.html')
-  // res.write('Heroku example: https://prove09-postal-rate-calculator.herokuapp.com/form.html')
   res.write(message)
   res.end()
 })
